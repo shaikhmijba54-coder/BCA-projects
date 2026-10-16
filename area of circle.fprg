@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area of circle"/>
+        <attribute name="authors" value="windows"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-20 11:03:07 PM"/>
+        <attribute name="created" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMDsxMDo1MjozMCBQTTszMTM0"/>
+        <attribute name="edited" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMDsxMTowMzowNyBQTTsxOzMyNDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="redius" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <input variable="redius"/>
+            <assign variable="area" expression="3.14*redius*redius"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

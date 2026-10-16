@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="larger 2 numbers"/>
+        <attribute name="authors" value="windows"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 06:06:32 AM"/>
+        <attribute name="created" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTswNjowMjowOCBBTTszMTI1"/>
+        <attribute name="edited" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTswNjowNjozMiBBTTsxOzMyMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <input variable="num2"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <output expression="&quot;num1 is larger&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;num2 is larger&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

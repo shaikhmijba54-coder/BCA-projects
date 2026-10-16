@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="table of 2"/>
+        <attribute name="authors" value="windows"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 10:18:45 PM"/>
+        <attribute name="created" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTsxMDoxMzoxOSBQTTszMTM5"/>
+        <attribute name="edited" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTsxMDoxODo0NSBQTTsxOzMyNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m" type="Integer" array="False" size=""/>
+            <assign variable="m" expression="2"/>
+            <while expression="m&lt;=20">
+                <output expression="m" newline="True"/>
+                <assign variable="m" expression="m+2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

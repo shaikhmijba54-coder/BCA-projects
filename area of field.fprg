@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area of field"/>
+        <attribute name="authors" value="windows"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 10:13:15 PM"/>
+        <attribute name="created" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTsxMDoxMDoyMyBQTTszMTMx"/>
+        <attribute name="edited" value="d2luZG93cztERVNLVE9QLTVOS1FIOFQ7MjAyNS0wNy0yMTsxMDoxMzoxNSBQTTsxOzMyNDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <input variable="length"/>
+            <input variable="width"/>
+            <assign variable="area" expression="length*width"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
